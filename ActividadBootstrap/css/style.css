@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+@font-face {
+    font-family: 'Gone';
+    src: url('fonts/youreGoneIt.otf');
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: aqua;
+}
+
+span{
+    font-weight: 1000;
+    display: block;
+}
+
+.center_head_border h2:after,
+.center_head_border:after {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.heading_main {
+    width: 100%;
+    margin: 0 0 65px;
+    letter-spacing: 0;
+}
+
+.heading_style_1 h2::after {
+    width: 110px;
+    height: 5px;
+    background: #ddd;
+    content: "";
+    display: block;
+    margin: 15px 0 30px;
+}
+
+section{
+    margin-top: 50px;
+}
+
+/* ------------------------------MENÚ---------------------------- */
+.menu{
+    background-color: #0d8a28;
+
+}
+
+.menu-sticky{
+    position: sticky;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    padding: 15px 20px;
+    z-index:9999;
+    background-color: #0d8a28;
+}
+
+.menu ul li a i {
+    color: white;
+    font-size: 50px;
+}
+
+
+.menu h1 {
+    font-family: 'Gone';
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 3rem;
+}
+
+.menu-icon{
+    margin-right: 30px;
+}
+
+.header-top{
+    background-color: rgba(165, 165, 165, 0.967);
+    position: absolute;
+}
+
+/* ------------------------------CARRUSEL---------------------------- */
+.carrusel{
+    width: 1280px;
+    height: 600x;
+    margin-left: 30px;
+    margin-top: 9px;
+    margin-bottom: 30px;
+    overflow: auto;
+    position: relative;
+    padding: 0% 1% 0% 1%;
+}
+
+/* ------------------------------CARD---------------------------- */
+
+.card{
+    width: 202px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+/* ------------------------------CURSOS---------------------------- */
+
+.otros-cursos{
+    margin-bottom: 10px;
+}
+
+.otros-cursos img{
+    width: 100px;
+}
+
+.otros-cursos i{
+    font-size: 50px;
+}
+
+.gap-2{
+    margin-top: 50px;
+}
+
+.gap-2 button{
+    margin-bottom: 20px;
+}
+
+/* ------------------------------FOOTER---------------------------- */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(52, 136, 41);
+    color: white;
+    margin-top: 90px;
+}
+footer h3,
+footer h4 {
+    font-family: 'Gone';
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 0.5rem;
+}
